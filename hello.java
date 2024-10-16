@@ -1,29 +1,23 @@
+import java.util.Scanner;
 
-import java.util.*;
-public class hello{
-    public static void main(String args[]){
-        Scanner sc= new Scanner(System.in) ;
-int income= sc.nextInt();
-int tax;
-if(income<500000){
-    tax =0;
+public class hello {
+    public static void main(String[] args) {
+     // Scanner in = new Scanner(System.in);
+       int a= 10;
+       int b= 20;
+       if(a==10 && b== 20){
+       System.out.println("Priyanshu");
+       }
+    }
+}
+        
+
+     
+       
+    
+
     
 
 
-}
-else if(income>=500000&& income<100000){
-tax= (int) (income * 0.2);
-}
-else{
-    tax=(int)(income*0.3);
-}
-System.out.println("your tax is :"+tax );
-
-}
-
-    }
-
-
-
-
+    
 
