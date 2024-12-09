@@ -14,5 +14,5 @@ public class sum {
         System.out.println("THe sum = "  + sum);
 
     }
-    
+     
 }
