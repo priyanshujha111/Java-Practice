@@ -1,15 +1,16 @@
 public class reverse {
-    public static void main(String[] args) {
-        int num = 28479;
-
-        int ans = 0;
-
-        while (num > 0){
-            int rem = num % 10;
-            num /= 10;
-            ans = ans * 10 + rem;
+    
+        public static void main(String[] args) {
+            String str = "Priyanshu";
+            String reversed = "";
+            
+            for (int i = str.length() - 1; i >= 0; i--) {
+                reversed += str.charAt(i);
+            }
+            
+            System.out.println("Reversed String: " + reversed);
         }
-        System.out.println(ans);
     }
     
-}
+    
+
